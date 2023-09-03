@@ -18,4 +18,4 @@ app.use('/api/goals', require('./routes/goalRoutes') ),
 
 app.use(errorHandler)
 
-app.listen(port, () => console.log('Server started on port '+ port))
+app.listen(port, () => console.log('Server started on port '+ port ))
